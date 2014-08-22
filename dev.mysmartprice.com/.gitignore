@@ -1,0 +1,6 @@
+/cookbooks/
+/db_dumps/*.sql
+/tmp/librarian/
+/comparables/
+/.vagrant/
+/.chef/
