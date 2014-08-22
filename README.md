@@ -19,6 +19,8 @@ Vagrant setup for local MSP Developer Instances.
 
 # Locally Available Resources
 
+You can get the vagrant, virtual box, base box, db_dumps for windows/linux/mac at this link:
+
 http://192.168.30.183/
 
 # Install
@@ -34,13 +36,11 @@ http://192.168.30.183/
 3. Get the required cookbooks
   ```bash
   librarian-chef install
-  
   ```
   
 4. Get the base box
   ```bash
   vagrant box add hashicorp/precise64 http://192.168.30.183/precise64.box
-  
   ```
   
 5. Comparables code base
