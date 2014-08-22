@@ -13,6 +13,7 @@ Vagrant setup for local MSP Developer Instances.
 * Vagrant Omnibus Plugin - [schisamo/vagrant-omnibus](https://github.com/schisamo/vagrant-omnibus)
 * Ubuntu Base Box - [vagrant docs](https://docs.vagrantup.com/v2/boxes/base.html), [vagrantbox.es](http://www.vagrantbox.es/)
 * Modified Hosts File
+  - `echo "192.168.33.10    dev.mysmartprice.com" >> /etc/hosts`
 * Decent Internet Connection
 * Time & Patience ;)
 
