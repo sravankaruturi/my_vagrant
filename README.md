@@ -14,6 +14,11 @@ Vagrant setup for local MSP Developer Instances.
 * Ubuntu Base Box - [vagrant docs](https://docs.vagrantup.com/v2/boxes/base.html), [vagrantbox.es](http://www.vagrantbox.es/)
 * Modified Hosts File
 * Decent Internet Connection
+* Time & Patience ;)
+
+# Locally Available Resources
+
+http://192.168.30.183/
 
 # Install
 
