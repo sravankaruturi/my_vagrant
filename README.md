@@ -26,6 +26,11 @@ http://192.168.30.183/
 # Install
 
 1. Install VirtualBox, Vagrant, Vagrant Omnibus plugin, Librarian-Chef gem.
+  ```bash
+  vagrant plugin install vagrant-omnibux
+  vagrant plugin install chef
+  gem install librarian-chef
+  ```
 
 2. Clone this repository and start the vagrant
   ```bash
