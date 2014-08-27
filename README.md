@@ -27,7 +27,7 @@ http://192.168.30.183/
 
 1. Install VirtualBox, Vagrant, Vagrant Omnibus plugin, Librarian-Chef gem.
   ```bash
-  vagrant plugin install vagrant-omnibux
+  vagrant plugin install vagrant-omnibus
   vagrant plugin install chef
   gem install librarian-chef
   ```
