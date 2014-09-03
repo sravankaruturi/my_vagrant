@@ -81,6 +81,7 @@ chmod -R 777 "${DOCUMENT_ROOT}msp/prop_filters"
 ####################################################################################################
 # Database Import
 ####################################################################################################
+sed -i 's/216.185.116.195/192.168.33.10/g' /home/vagrant/db_dumps/*.sql
 mysql -u root -proot < /home/vagrant/db_dumps/all_db.sql
 mysql -u root -proot < /home/vagrant/db_dumps/user_db.sql
 mysql -u root -proot < /home/vagrant/db_dumps/binaryd1_booksbkp.sql
