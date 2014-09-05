@@ -92,7 +92,7 @@ mysql -u root -proot < /home/vagrant/db_dumps/user_grants.sql
 # WGETs
 ####################################################################################################
 
-declare -a urls=("${MSP_PROCESSES}lists/createnewbrandlists.php" "${MSP_PROCESSES}lists/createnewtypelists.php" "${MSP_PROCESSES}property/ui-factory/generate_left_sidebar.php" "${MSP_PROCESSES}property/loader/msp_load_data_redis.php" "${WEB_ROOT}/m/utils/msp_load_redis_url.php" "${WEB_ROOT}/api/product/master_saves_details.php" "${WEB_ROOT}/cron_scripts/master_to_redis.php")
+declare -a urls=("${MSP_PROCESSES}lists/createnewbrandlists.php" "${MSP_PROCESSES}lists/createnewtypelists.php" "${MSP_PROCESSES}property/ui-factory/generate_left_sidebar.php" "${MSP_PROCESSES}property/loader/msp_load_data_redis.php" "${WEB_ROOT}/m/utils/msp_load_redis_url.php" "${WEB_ROOT}/api/product/master_saves_details.php" "${WEB_ROOT}/cron_scripts/master_to_redis.php" "${WEB_ROOT}/mobile/lists/generatealllists.php")
 for url in "${urls[@]}"
 do
     wget -bq $url -O /dev/null
