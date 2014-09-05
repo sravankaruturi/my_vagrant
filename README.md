@@ -58,6 +58,8 @@ http://192.168.30.183/
   vagrant up
   ```
 
+If you get any errors when doing `vagrant up`, try doing `vagrant provision`.
+
 Any queries? Ping on IRC @ irc.mspsg.in
 
 That's it! Start coding already :-)
