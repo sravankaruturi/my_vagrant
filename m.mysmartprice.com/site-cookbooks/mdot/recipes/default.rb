@@ -16,11 +16,6 @@ apt_package "php-apc" do
     action :install
 end
 
-# temporary fix for symlink from /var/www_mob to /vagrant
-link "/var/www_mob/" do
-    to "/vagrant/"
-end
-
 service "php5-fpm" do
     action :restart
 end
@@ -36,4 +31,8 @@ end
 
 service "nginx" do
     action :restart
+end
+
+execute "ln -s /vagrant /var/www_mob"  do
+    cwd "/"
 end
