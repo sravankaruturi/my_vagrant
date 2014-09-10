@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'nginx', '~> 2.7.4'
+cookbook 'php-fpm', '~> 0.6.10'
+cookbook 'mysql', '~> 5.5.2'
+cookbook 'database', '~> 2.3.0'
